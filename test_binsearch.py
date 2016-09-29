@@ -5,9 +5,9 @@ from binsearch import binary_search
 def test_binary_search():
     assert binary_search([0, 5, 6], 6) == 2
 
-#def test_char():
-#    with raises(TypeError):
-#        myaverage(['a',3])
+def test_char():
+    with raises(TypeError):
+        bin_search(['a', 3], 3)
 
 #def test_mymath():
 #    assert mymedian([9,3, 6]) == 6
