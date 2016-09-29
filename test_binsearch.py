@@ -7,7 +7,7 @@ def test_binary_search():
 
 def test_char():
     with raises(TypeError):
-        bin_search(['a', 3], 3)
+        binary_search(['a', 3], 3)
 
 #def test_mymath():
 #    assert mymedian([9,3, 6]) == 6
