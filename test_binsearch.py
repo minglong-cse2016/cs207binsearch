@@ -31,7 +31,11 @@ def test_middle():
 def test_right_boundary():
     assert binary_search([1, 2, 3, 4], 10) == -1
 
-    
+def test_large_input1():
+    assert binary_search(range(1000000), -1) == -1
+
+def test_large_input2():
+    assert binary_search(range(1000000), 1000001) == -1
     
 #def test_zero_median():
 #    with raises(ValueError):
