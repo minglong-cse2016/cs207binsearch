@@ -51,11 +51,3 @@ def test_large_input2():
 
 def test_large_input3():
     assert binary_search(range(1000000), 40000) == 40000
-
-#def test_zero_median():
-#    with raises(ValueError):
-#        mymedian([])
-        
-#def test_char_median():
-#    with raises(TypeError):
-#        mymedian(['a', 3])
